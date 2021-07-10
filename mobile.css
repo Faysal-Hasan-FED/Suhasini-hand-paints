@@ -17,3 +17,20 @@ nav a{
 nav a:hover{
   border-bottom: 1px solid orange;
 }
+
+.about{
+  display: flex;
+  background-image: none;
+  flex-direction: column;
+  background-color: #7F99A5;
+}
+
+.box{
+  width: 100%;
+}
+
+.box img{
+ display: block;
+ margin: 10px auto;
+}
+

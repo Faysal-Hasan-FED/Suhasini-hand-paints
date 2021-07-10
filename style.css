@@ -4,10 +4,12 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+
 header{
   display: flex;
   justify-content: space-between;
   background-color: #001e2d;
+  margin-bottom: 100px;
 }
 
 header h1{
@@ -15,6 +17,7 @@ header h1{
   color: whitesmoke;
   margin-left: 20px;
   padding-top: 5px;
+  font-size: 40px;
 }
 
 header h1:hover{
@@ -31,3 +34,115 @@ nav a{
 nav a:hover{
   border-bottom: 2px solid orange;
 }
+
+.colored-text{
+  color: orange;
+}
+
+.button{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(tomato,blue);
+  color: whitesmoke;
+  border-radius: 25px;
+  display: inline-block;
+  margin-left: 125px;
+}
+
+.button:hover{
+  background-image: linear-gradient(orange,red);
+}
+
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  background-image:url(images/Frame\ 56.jpg); 
+  
+}
+
+.box{
+  width: 40%;
+}
+
+.box h2{
+  padding: 25px;
+  font-size: 32px;
+}
+
+.box p{
+  padding: 25px;
+}
+
+.box img{
+  width: 80%;
+  border-radius: 50%;
+  margin: 15px auto;
+}
+
+ .product-photo img{
+  width: 40%;
+  border-radius: 25px;
+  display: block;
+  margin:0px auto;
+}
+
+.product-photo{
+  width: 100%;
+}
+
+.products{
+  flex-basis: 300px;
+  height: 280px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  position: relative;
+  background: lightpink;
+  flex-grow: 1;
+  margin: 5px;
+  box-shadow: 10px 10px 40px gray;
+}
+
+.product-details h2, .product-details h3{
+  text-align: center;
+}
+
+.product-details p{
+  padding: 25px;
+}
+
+
+
+.product-details{
+  position: absolute;
+  top: 0px;
+  display: none;
+  background-color: rgba(238, 130, 238, 0.274);
+}
+
+.products:hover .product-details{
+  display: block;
+  color: rgb(61, 16, 16);
+}
+
+.products:hover .product-details h3{
+  color: white;
+}
+
+.products:hover .product-photo{
+  transform: scale(.8);
+  transition: transform 2s;
+}
+
+.showcase>h2{
+  font-size: 32px;
+  text-align: center;
+  font-family: cursive;
+  padding: 100px;
+}
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
