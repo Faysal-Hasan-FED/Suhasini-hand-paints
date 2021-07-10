@@ -140,9 +140,102 @@ nav a:hover{
   padding: 100px;
 }
 
+#testimonials{
+  margin-top: 100px;
+}
+
+#testimonials h2{
+  text-align: center;
+  font-family: cursive;
+}
+
 .products-container{
   display: flex;
   flex-wrap: wrap;
 
+}
+
+
+#contact{
+  margin-top: 100px;
+  margin-bottom: 200px;
+  
+}
+
+#contact h2{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: cursive;
+}
+
+.form{
+  height: 150px;
+  width: 250px;
+  margin-left: 40%;
+  
+}
+
+.form input{
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid orange;
+  font-size: 1.3em;
+  margin-bottom: 25px;
+}
+
+.form .submit{
+  border: none;
+  padding: 10px 15px;
+  margin-left: 30%;
+  border-radius: 25px;
+  background-color:crimson;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+footer {
+  background: #001e2d;
+}
+
+footer p{
+  text-align: center;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 22px;
+}
+
+.testimonials .speech{
+  display: flex;
+}
+
+.testimonials h2{
+  font-size: 32px;
+}
+
+#contact h2{
+  font-size: 32px;
+}
+
+.speech-box img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.speech-box{
+  display: flex;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: gray;
+  margin-right: 10px;
+  margin-left: 15px;
+  border-radius: 25px;
+  color: whitesmoke;
+  box-shadow: 10px 10px 30px orange;
+}
+
+.speech-box p{
+  padding-top: 25px;
+  padding-left: 10px;
 }
 
