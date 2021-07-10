@@ -1,0 +1,33 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #001e2d;
+}
+
+header h1{
+  font-family:cursive;
+  color: whitesmoke;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+header h1:hover{
+  color: orange;
+}
+
+nav a{
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 20px 25px;
+  display: inline-block;
+}
+
+nav a:hover{
+  border-bottom: 2px solid orange;
+}

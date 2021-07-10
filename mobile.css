@@ -1,0 +1,19 @@
+header{
+  display: flex;
+  flex-direction: column;
+}
+header h1{
+  text-align: center;
+}
+header h1:hover{
+  color: orange;
+}
+nav a{
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a:hover{
+  border-bottom: 1px solid orange;
+}
